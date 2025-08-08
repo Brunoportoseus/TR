@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+<head>
+    <vtex:template id="00-medalhaopersa-head" />
+    
+</head>
+<body>
+<div class="wrapper">
+    <vtex:template id="00-medalhaopersa-menu" />
+
+    <div class="wrapper__container">
+        <vtex:template id="00-medalhaopersa-header" />
+
+        <main class="main" id="main">
+
+            <section class="banner banner--full">
+                <div data-carousel="one" class="banner__container">
+                    <vtex:contentPlaceHolder id="bannerHomeFull" />
+                </div>
+            </section>
+
+            <section class="banner banner--full mobile__only">
+                <div data-carousel="one" class="banner__container">
+                    <vtex:contentPlaceHolder id="bannerHomeFullmobile" />
+                </div>
+            </section> 
+
+            <div class="showcase">
+                <div data-carousel="showcase" class="showcase__container">
+                    <vtex:contentPlaceHolder id="destaques" />
+                </div>
+            </div>
+
+            <div class="showcase chronometer">
+                <vtex.cmc:chronometerTitle />
+                
+                <div class="showcase__container">
+                    <vtex:contentPlaceHolder id="chronometer" />
+                </div>
+            </div>
+
+
+            <div class="department">
+                <div class="department__container">
+                    <div class="department__title">
+                        <vtex:contentPlaceHolder id="departmentTitle" />
+                    </div>
+                    <ul data-carousel="department" class="department__list">
+                        <vtex.cmc:department />
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="lines">
+                <div class="lines__container">
+                    <div class="lines__title">
+                        <vtex:contentPlaceHolder id="linesTitle" />
+                    </div>
+                    <ul class="lines__list">
+                        <vtex.cmc:lines />
+                    </ul>
+                </div>
+            </div>
+
+
+            <section class="showcase-tabs">
+                <div class="showcase-tabs__container">
+                    <h1 class="showcase-tabs__title">Escolha pela matéria prima</h1>
+                    <ul class="showcase-tabs__tabs">
+                        <li class="showcase-tabs__tabs-item showcase-tabs__tabs-item--active" data-showacase-id="showcase--ouro">
+                            <span>
+                                <img src="/arquivos/showcase-ouro.png" alt="Ouro"/>
+                                Ouro Amarelo
+                            </span> 
+                        </li>
+                        <li class="showcase-tabs__tabs-item" data-showacase-id="showcase--branco">
+                            <span>
+                                <img src="/arquivos/showcase-ouro-branco.png" alt="Ouro Branco"/>
+                                Ouro Branco
+                            </span> 
+                        </li>
+                        <li class="showcase-tabs__tabs-item" data-showacase-id="showcase--rose">
+                            <span>
+                                <img src="/arquivos/showcase-ouro-rose.png" alt="Ouro Vermelho"/>
+                                Ouro Vermelho
+                            </span>
+                         </li>
+                        <li class="showcase-tabs__tabs-item" data-showacase-id="showcase--prata">
+                            <span>
+                                <img src="/arquivos/showcase-prata.png" alt="Ouro Prata"/>
+                                Prata
+                            </span> 
+                        </li>
+                    </ul>
+
+                    <div class="showcase-tabs__showcase">
+                        <div class="showcase showcase--ouro showcase--active" data-showcase="showcase--ouro">
+                            <div class="showcase-tabs__description">
+                                <span>
+                                    <vtex:contentPlaceHolder id="ouroDescription" />
+                                </span>
+                            </div>
+
+                            <div class="showcase__container">
+                                
+                                <vtex:contentPlaceHolder id="ouro" />
+                            </div>
+
+                            <div class="showcase-tabs__link">
+                                <a href="#">Ver mais peças em Ouro</a>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="showcase showcase--branco" data-showcase="showcase--branco">
+
+                            <div class="showcase-tabs__description">
+                                <span>
+                                    <vtex:contentPlaceHolder id="ouroBrancoDescription" />
+                                </span>
+                            </div>
+
+                            <div class="showcase__container">
+                                <vtex:contentPlaceHolder id="branco" />
+                            </div>
+
+                            <div class="showcase-tabs__link">
+                                <a href="#">Ver mais peças em Ouro Branco</a>
+                            </div>
+                        </div>
+                        
+                        <div class="showcase showcase--rose" data-showcase="showcase--rose">
+                            <div class="showcase-tabs__description">
+                                <span>
+                                    <vtex:contentPlaceHolder id="ouroRoseDescription" />
+                                </span>
+                            </div>
+
+                            <div class="showcase__container">
+                                <vtex:contentPlaceHolder id="rose" />
+                            </div>
+                            <div class="showcase-tabs__link"> 
+                                <a href="#">Ver mais peças em Ouro Rose</a>
+                            </div>
+                        </div>
+
+                        <div class="showcase showcase--prata" data-showcase="showcase--prata">
+                            <div class="showcase-tabs__description">
+                                <span>
+                                    <vtex:contentPlaceHolder id="prataDescription" />
+                                </span>
+                            </div>
+
+                            <div class="showcase__container">
+                                
+                                <vtex:contentPlaceHolder id="prata" />
+                            </div>
+                            
+                            <div class="showcase-tabs__link"> 
+                                <a href="#">Ver mais peças em Prata</a>
+                            </div>
+                        </div>
+
+                        <div class="showcase showcase--aco" data-showcase="showcase--aco">
+
+                            <div class="showcase-tabs__description">
+                                <span>
+                                    <vtex:contentPlaceHolder id="acoDescription" />
+                                </span>
+                            </div>
+
+                            <div class="showcase__container">
+                                <vtex:contentPlaceHolder id="aco" />
+                            </div>
+                            <div class="showcase-tabs__link"> 
+                                <a href="#">Ver mais peças em Aço</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <div class="about">
+                <div class="about__container">
+                    <div class="about__title">
+                        <vtex:contentPlaceHolder id="aboutTitle" />
+                    </div>
+                    <ul class="about__list">
+                        <vtex.cmc:about />
+                    </ul>
+                </div>
+            </div>
+            
+            <section class="newsletter__new">
+                <div class="newsletter__new-left">
+                    <h2>Registre-se e receba nossas novidades e promoções</h2>
+                </div>
+                <div class="newsletter__new-right">
+                    <div data-component="newsletter"></div>
+                </div>
+            </section>
+
+           
+            <vtex.cmc:lightboxEntry/>
+            
+            <div class="lightbox-out">
+                <div class="lightbox-out__content">
+                  <button class="lightbox-out__close" aria-label="Fechar modal">X</button>
+              
+                  <div class="lightbox-out__main">
+                    
+                    <div class="lightbox-out__left">
+                        <img src="/arquivos/lightbox-out.jpg" alt="Medalhão Persa" />
+                    </div>
+
+                    <div class="lightbox-out__right">
+                        <div class="lightbox-out__header">
+                            <div class="lightbox-out__text">
+                                <span>Não vá embora!</span>
+                                <span class="lightbox-out__sub">Veja as ofertas que separamos pra você.</span>
+                            </div>
+                          </div>
+                    
+                          <div class="lightbox-out__showcase">
+                            <section class="showcase showcase--carousel showcase--lightbox">
+                                <div class="showcase__container">
+                                    <vtex:contentPlaceHolder id="showcase-lightbox" />
+                                </div>
+                            </section>
+                          </div>
+                  
+                          <a href="#" class="lightbox-out__link">
+                              Ver mais promoções
+                          </a>
+                    </div>
+
+                  </div>
+                </div>
+            </div>
+
+        </main>
+        
+        <vtex:template id="00-medalhaopersa-footer" />
+        <vtex:template id="00-medalhaopersa-scripts" />
+        <vtex.cmc:productQuickView/>
+    </div>
+</div>
+</body>
+</html>
