@@ -1,0 +1,181 @@
+<li class="header__user desktop">
+<div>Ol&aacute;, Seja Bem-vindo! Entre ou Cadastre-se</div>
+<button class="button__close--navigation" type="button" aria-controls="navigation"></button></li>
+<li class="menu__item--nv1 menu__item--has-child" aria-expanded="false"><a class="menu__link--nv1" href="/joia"><strong>Joias</strong></a>
+<div class="menu-icon-wrapper">
+<div class="menu-icon menu-icon-active">&nbsp;</div>
+</div>
+<div class="menu__dropdown">
+<div class="menu__dropdown--container">
+<div class="menu__left">
+<ul class="menu__list--nv2 custom">
+<li class="menu__item--nv2"><a class="menu__link--nv2" href="/joia/aneis">Aneis</a>
+<ul class="menu__list--nv3">
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/aneis/aneis-ouro-amarelo">Ouro Amarelo</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/aneis/aneis-ouro-branco">Ouro Branco</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/aneis/aneis-perola">P&eacute;rola</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/aneis/aneis-prata">Prata</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/aneis/aneis-outros">Outros</a></li>
+</ul>
+</li>
+<li class="menu__item--nv2"><a class="menu__link--nv2" href="/joia/braceletes">Braceletes</a>
+<ul class="menu__list--nv3">
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/braceletes/braceletes-ouro-amarelo">Ouro Amarelo</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/braceletes/braceletes-ouro-branco">Ouro Branco</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/braceletes/braceletes-ouro-vermelho">Ouro Vermelho</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/braceletes/braceletes-perola">P&eacute;rola</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/braceletes/braceletes-prata">Prata</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/braceletes/outros">Outros</a></li>
+</ul>
+</li>
+<li class="menu__item--nv2"><a class="menu__link--nv2" href="/joia/brincos">Brincos</a>
+<ul class="menu__list--nv3">
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/brincos/brincos-ouro-amarelo">Ouro Amarelo</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/brincos/brincos-ouro-branco">Ouro Branco</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/brincos/brincos-ouro-vermelho">Ouro Vermelho</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/brincos/brincos-perola">P&eacute;rola</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/brincos/brincos-prata">Prata</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/brincos/brincos-outros">Outros</a></li>
+</ul>
+</li>
+<li class="menu__item--nv2"><a class="menu__link--nv2" href="/joia/conjuntos">Conjuntos</a>
+<ul class="menu__list--nv3">
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/conjuntos/conjuntos-ouro-amarelo">Ouro Amarelo</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/conjuntos/conjuntos-ouro-branco">Ouro Branco</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/conjuntos/conjuntos-ouro-vermelho">Ouro Vermelho</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/conjuntos/conjuntos-perola">P&eacute;rola</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/conjuntos/conjuntos-prata">Prata</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/conjuntos/conjuntos-outros">Outros</a></li>
+</ul>
+</li>
+<li class="menu__item--nv2"><a class="menu__link--nv2" href="/joia/colar">Colar</a>
+<ul class="menu__list--nv3">
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/colar/colar-ouro-amarelo">Ouro Amarelo</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/colar/colar-ouro-branco">Ouro Branco</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/colar/colar-ouro-vermelho">Ouro Vermelho</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/colar/colar-perola">P&eacute;rola</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/colar/colar-prata">Prata</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/jois/colar/colar-outros">Outros</a></li>
+</ul>
+</li>
+<li class="menu__item--nv2"><a class="menu__link--nv2" href="/joia/correntes">Correntes</a>
+<ul class="menu__list--nv3">
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/correntes/correntes-ouro-amarelo">Ouro Amarelo</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/correntes/correntes-ouro-branco">Ouro Branco</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/correntes/correntes-ouro-vermelho">Ouro Vermelho</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/correntes/correntes-perola">P&eacute;rola</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/correntes/correntes-prata">Prata</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/correntes/correntes-outros">Outros</a></li>
+</ul>
+</li>
+<li class="menu__item--nv2"><a class="menu__link--nv2" href="/joia/pingentes">Pingentes</a>
+<ul class="menu__list--nv3">
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/pingentes/pingentes-ouro-amarelo">Ouro Amarelo</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/pingentes/pingentes-ouro-branco">Ouro Branco</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/pingentes/pingentes-ouro-vermelho">Ouro Vermelho</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/pingentes/pingentes-perola">P&eacute;rola</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/pingentes/pingentes-prata">Prata</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/pingentes/pingentes-outros">Outros</a></li>
+</ul>
+</li>
+<li class="menu__item--nv2"><a class="menu__link--nv2" href="/joia/pulseiras">Pulseiras</a>
+<ul class="menu__list--nv3">
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/pulseiras/pulseiras-ouro-amarelo">Ouro Amarelo</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/pulseiras/pulseiras-ouro-branco">Ouro Branco</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/pulseiras/pulseiras-ouro-vermelho">Ouro Vermelho</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/pulseiras/pulseiras-perola">P&eacute;rola</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/pulseiras/pulseiras-prata">Prata</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/joia/pulseiras/pulseiras-outros">Outros</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="menu__right"><a href="/alian&ccedil;a"> <img src="/arquivos/menu-img.jpg" alt="" /> <span class="menu__right--title">Alian&ccedil;as</span> <span class="menu__right--sub">Conhe&ccedil;a nossa linha completa de alian&ccedil;as</span> </a></div>
+</div>
+</div>
+</li>
+<li class="menu__item--nv1 menu__item--has-child" aria-expanded="false"><a class="menu__link--nv1" href="/linhas"><strong>Linhas</strong></a>
+<div class="menu-icon-wrapper">
+<div class="menu-icon menu-icon-active">&nbsp;</div>
+</div>
+<div class="menu__dropdown">
+<div class="menu__dropdown--container">
+<div class="menu__left">
+<ul class="menu__list--nv2">
+<li class="menu__item--nv2"><a class="menu__link--nv2" href="/linhas/exclusivas">Exclusivas</a>
+<ul class="menu__list--nv3">
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/linhas/exclusivas/alshahba">Alshahba</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/linhas/exclusivas/ara-collection">Ara Collection</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/linhas/exclusivas/eva-larue">Eva Larue</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/linhas/exclusivas/giovanni">Giovanni</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/linhas/exclusivas/kurtulan">Kurtulan</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/linhas/pedras-naturais">Linha Premium</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/linhas/exclusivas/prima-gold">Prima Gold</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/linhas/religiosa">Religiosa</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/linhas/nepal">Nepal</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="menu__right"><a href="/alian&ccedil;a"> <img src="/arquivos/menu-img.jpg" alt="" /> <span class="menu__right--title">Alian&ccedil;as</span> <span class="menu__right--sub">Conhe&ccedil;a nossa linha completa de alian&ccedil;as</span> </a></div>
+</div>
+</div>
+</li>
+<li class="menu__item--nv1 menu__item--has-child" aria-expanded="false"><a class="menu__link--nv1" href="/colecoes/promocoes"><strong>Promoções da TV para o Site</strong></a>
+<div class="menu-icon-wrapper">
+<div class="menu-icon menu-icon-active">&nbsp;</div>
+</div>
+</li>
+<li class="menu__item--nv1 menu__item--has-child" aria-expanded="false"><a class="menu__link--nv1" href="/decoracao"><strong>Decora&ccedil;&atilde;o</strong></a>
+<div class="menu-icon-wrapper">
+<div class="menu-icon menu-icon-active">&nbsp;</div>
+</div>
+<div class="menu__dropdown">
+<div class="menu__dropdown--container">
+<div class="menu__left">
+<ul class="menu__list--nv2">
+<li class="menu__item--nv2"><a class="menu__link--nv2" href="/decoracao/esculturas-e-objetos-decorativos">Esculturas e objetos decorativos</a></li>
+<li class="menu__item--nv2"><a class="menu__link--nv2" href="/decoracao/anforas-gregas">&Acirc;nforas Gregas</a></li>
+<li class="menu__item--nv2"><a class="menu__link--nv2" href="/decoracao/cestas-de-piquenique">Cestas de Piquenique</a></li>
+<li class="menu__item--nv2"><a class="menu__link--nv2" href="/decoracao/objetos-natalinos">Objetos Natalinos</a></li>
+<li class="menu__item--nv2"><a class="menu__link--nv2" href="/decoracao/porta-joias">Porta Joias</a></li>
+<li class="menu__item--nv2"><a class="menu__link--nv2" href="/decoracao/tapetes">Tapetes</a>
+<ul class="menu__list--nv3">
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/abadeh">Abadeh</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/ardabil">Ardabil</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/bakhtiari">Bakhtiari</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/bijar">Bijar</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/birjand">Birjand</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/gabbeh">Gabbeh</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/ghom">Ghom</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/gorgan">Gorgan</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/isfahan">Isfahan</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/kashmar">Kashmar</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/kerman">Kerman</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/mahallat">Mahallat</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/mashad">Mashad</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/mood">Mood</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/nain">Nain</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/najafabad">Najafabad</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/sanandaj">Sanandaj</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/tabriz">Tabriz</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/veramin">Veramin</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/yalameh">Yalameh</a></li>
+<li class="menu__item--nv3"><a class="menu__link--nv3" href="/decoracao/tapetes/yazd">Yazd</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="menu__right"><a href="/alian&ccedil;a"> <img src="/arquivos/menu-img.jpg" alt="" /> <span class="menu__right--title">Alian&ccedil;as</span> <span class="menu__right--sub">Conhe&ccedil;a nossa linha completa de alian&ccedil;as</span> </a></div>
+</div>
+</div>
+</li>
+<li class="menu__item--nv1 menu__item--has-child" aria-expanded="false"><a class="menu__link--nv1" href="/colecoes/novidades"><strong>Novidades</strong></a>
+<div class="menu-icon-wrapper">
+<div class="menu-icon menu-icon-active">&nbsp;</div>
+</div>
+<li class="menu__item--nv1 menu__item--has-child" aria-expanded="false"><a class="menu__link--nv1" href="/busca?fq=H:221"><strong>Instagram</strong></a>
+<div class="menu-icon-wrapper">
+<div class="menu-icon menu-icon-active">&nbsp;</div>
+</div>
+</li>
