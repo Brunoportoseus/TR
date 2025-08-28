@@ -35,8 +35,6 @@
       {% comment %}
       ws
       {% endcomment %}
-
-
       {% if order.cancelled %}
         {%- assign cancelled_at = order.cancelled_at | date: '%B %d, %Y %I:%M%p' -%}
         <p>{{ 'customer.order.cancelled_html' | t: date: cancelled_at }}</p>
