@@ -8,6 +8,35 @@
         </p>
       </div>
 
+      {% comment %}
+      WS
+      {% endcomment %}
+      {%- if order.fulfillments.size > 0 -%}
+        <div class="tracking-info" style="margin-bottom: 30px; border: 1px solid #e5e5e5; padding: 15px; border-radius: 5px;">
+          <h4 style="margin-bottom: 10px;">Informações de Rastreamento</h4>
+          {%- for fulfillment in order.fulfillments -%}
+            {%- if fulfillment.tracking_url -%}
+              <p>
+                <strong>Link de Rastreamento:</strong>
+                <a href="{{ fulfillment.tracking_url }}" target="_blank" style="color: #007bff; text-decoration: underline;">
+                  Clique aqui para rastrear seu pedido
+                </a>
+              </p>
+            {%- endif -%}
+            {%- if fulfillment.tracking_number -%}
+              <p><strong>Código de Rastreio:</strong> {{ fulfillment.tracking_number }}</p>
+            {%- endif -%}
+            {%- if fulfillment.tracking_company -%}
+              <p><strong>Transportadora:</strong> {{ fulfillment.tracking_company }}</p>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+      {% comment %}
+      ws
+      {% endcomment %}
+
+
       {% if order.cancelled %}
         {%- assign cancelled_at = order.cancelled_at | date: '%B %d, %Y %I:%M%p' -%}
         <p>{{ 'customer.order.cancelled_html' | t: date: cancelled_at }}</p>
@@ -132,13 +161,13 @@
                         <small class="price-unit-price">
                           {%- capture unit_price_separator -%}
                           <span aria-hidden="true">/</span><span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
-                        {%- endcapture -%}
+                          {%- endcapture -%}
                           {%- capture unit_price_base_unit -%}
                           {%- if line_item.unit_price_measurement.reference_value != 1 -%}
                             {{- line_item.unit_price_measurement.reference_value -}}
                           {%- endif -%}
                           {{ line_item.unit_price_measurement.reference_unit }}
-                        {%- endcapture -%}
+                          {%- endcapture -%}
 
                           <span data-unit-price>{{ line_item.unit_price | money }}</span>
                           {{- unit_price_separator -}}
@@ -157,7 +186,7 @@
           </tbody>
           <tfoot>
             <tr class="">
-              <td class="border  " colspan="4" class="small--hide">{{ 'customer.order.subtotal' | t }}</td>
+              <td class="border   " colspan="4" class="small--hide">{{ 'customer.order.subtotal' | t }}</td>
               <td class="border " data-label="{{ 'customer.order.subtotal' | t }}">
                 {{ order.line_items_subtotal_price | money }}
               </td>
@@ -165,7 +194,7 @@
 
             {% for discount in order.discounts %}
               <tr>
-                <td class="border  " colspan="4" class="small--hide">
+                <td class="border   " colspan="4" class="small--hide">
                   {{ discount.code }}
                   {{ 'customer.order.discount' | t }}
                 </td>
@@ -175,7 +204,7 @@
 
             {% for shipping_method in order.shipping_methods %}
               <tr>
-                <td class="border  " colspan="4" class="small--hide">
+                <td class="border   " colspan="4" class="small--hide">
                   {{ 'customer.order.shipping' | t }} ({{ shipping_method.title }})
                 </td>
                 <td class="border " data-label="{{ 'customer.order.shipping' | t }} ({{ shipping_method.title }})">
@@ -186,7 +215,7 @@
 
             {% for tax_line in order.tax_lines %}
               <tr>
-                <td class="border  " colspan="4" class="small--hide">
+                <td class="border   " colspan="4" class="small--hide">
                   {{ 'customer.order.tax' | t }} ({{ tax_line.title }}
                   {{ tax_line.rate | times: 100 }}%)
                 </td>
@@ -200,7 +229,7 @@
             {% endfor %}
 
             <tr>
-              <td class="border  " colspan="4" class="small--hide">{{ 'customer.order.total' | t }}</td>
+              <td class="border   " colspan="4" class="small--hide">{{ 'customer.order.total' | t }}</td>
               <td class="border " data-label="{{ 'customer.order.total' | t }}">
                 {{ order.total_price | money }}
                 {{ order.currency }}
